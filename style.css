@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    width: 15rem;
+
+}
+
+.titulo h1 {
+    text-align: center;
+    align-items: center;
+    margin-left: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    border: 1px solid #000000;
+    background-color: #34758f;
+    margin-left: 11.938rem;
+    margin-left: 12.938rem;
+    height: 7.75rem;
+    width: 24.7rem;
+    margin-bottom: 3rem;
+    /* width: 24.75rem;
+    height: 7.75rem;
+    left: 12.938rem;
+    top: 11.438rem;
+    background: rgba(217, 217, 217, 0.18);
+    border: 1px solid #000000;
+    background-color: red;
+    margin-bottom: 3.938rem; */
+}
+
+.image-perfil img {
+    width: 5.375rem;
+    height: 5.375rem;
+    margin-left: 1.875rem;
+    border-radius: 22.5rem;
+}
+
+.nome-perfil {
+    margin-left: 1.875rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #000000;
+}
+
+.total {
+    display: flex;
+}
+
+body {
+    background: rgb(216, 196, 196);
+}
+
+@media (max-width: 1000px) {
+
+    .total {
+        background-color: red;
+        margin-left: -250px;
+    }
+
+    .container {
+        width: 21.445rem;
+        height: 6.715rem;
+        margin-left: 16.875rem;
+        top: 13.438rem;
+    }
+
+    .image-perfil {
+        width: 4.658rem;
+        height: 4.658rem;
+        left: 4.691rem;
+        top: 14.466rem;
+    }
+
+    .nome-perfil {
+        width: 9.875rem;
+        height: 1.313rem;
+        left: 12.5rem;
+        top: 16.125rem;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+
+        color: #000000;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .total {
+        display: block;
+        justify-content: center;
+    }
+
+    .total2 {
+        margin-left: 5.625rem;
+    }
+
+    .total3 {
+        margin-left: 5.625rem;
+    }
+
+    .titulo h1 {
+        margin-left: -5rem;
+    }
+
+    .header img {
+        width: 18.75rem;
+    }
+
+    .nome-perfil {
+        margin-left: 4.375rem;
+    }
+}
