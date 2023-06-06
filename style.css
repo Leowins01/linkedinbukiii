@@ -25,7 +25,7 @@
 .container {
     display: flex;
     border: 1px solid #000000;
-    background-color: #34758f;
+    border-radius: 2rem;
     margin-left: 11.938rem;
     margin-left: 12.938rem;
     height: 7.75rem;
@@ -55,7 +55,7 @@
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.5rem;
-    color: #000000;
+    color: #d3c8c8;
 }
 
 .total {
@@ -63,13 +63,16 @@
 }
 
 body {
-    background: rgb(216, 196, 196);
+    background: #415B84;
+}
+
+.section a {
+    text-decoration: none;
 }
 
 @media (max-width: 1000px) {
 
     .total {
-        background-color: red;
         margin-left: -250px;
     }
 
@@ -106,17 +109,21 @@ body {
 
 @media (max-width: 500px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
     .total {
         display: block;
         justify-content: center;
     }
 
     .total2 {
-        margin-left: 5.625rem;
+        margin-left: 3.625rem;
     }
 
     .total3 {
-        margin-left: 5.625rem;
+        margin-left: 3.625rem;
     }
 
     .titulo h1 {
@@ -125,9 +132,11 @@ body {
 
     .header img {
         width: 18.75rem;
+        margin-left: -6.20rem;
     }
 
     .nome-perfil {
         margin-left: 4.375rem;
+        width: 12.5rem;
     }
 }
